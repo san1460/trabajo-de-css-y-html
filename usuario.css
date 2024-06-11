@@ -1,0 +1,226 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium';
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+}
+.logo{
+  position: relative;
+  background-color:white;
+  width: 100%;
+  height: 150px;
+
+
+}
+.logo-1{
+  position: relative;
+  width: 250px;
+  height: 150px;
+  left: 600px;
+  top: 0px;
+}
+header{
+  position: relative;
+  top: 80%;
+  left: 5%;
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+nav ul li{
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+  width: 300px;
+}
+
+nav a:hover{
+  color: aqua;
+}
+
+nav a:active{
+  color: #aa1010;
+}
+.link{
+  position: absolute;
+  top: 70px;
+  left: 870px;
+  border-radius: 10px;
+  margin: auto;
+  width: 105px;
+  height: 40px;
+}
+.link-2{
+  position: absolute;
+  top: 70px;
+  left: 700px;
+  width: 120px;
+  height: 40px;
+}
+.link-3{
+  position: absolute;
+  top: 70px;
+  left: 600px;
+  width: 120px;
+  height: 40px;
+}
+.link-4{
+  position: absolute;
+  top: 70px;
+  left: 480px;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+}
+.link-5{
+  position: absolute;
+  top: 70px;
+  left: 350px;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+}
+.contacto{
+  position: relative;
+  top: 500px;
+
+}
+form{
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  max-width:400px ;
+  margin: 0 auto;  /*Para centrar el formulario*/
+  color: white;
+}
+
+
+input, textarea{
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+
+}
+button{
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color : rgb(148, 158, 158);
+
+}
+.titulo{
+  position: relative;
+  color: white;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  max-width:400px ;
+  margin: 0 auto;  /*Para centrar el formulario*/
+  left: 100px;
+}
+.back{
+  position: relative;
+  background-color: green;
+  top: 180px;
+  color: #000;
+  z-index: 1;
+}
+.titulo-1{
+  color:white;
+  left: 600px;
+  top: 1px;
+}
+.back-1{
+  position: relative;
+  background-color: blue;
+  top: 180px;
+}
+.titulo-2{
+  color:white;
+  left: 600px;
+  top: 1px;
+}
+.back-2{
+  position: relative;
+  background-color:red;
+  top: 180px;
+}
+.titulo-3{
+  color:white;
+  left: 600px;
+  top: 1px;
+}
+ h2{
+  color: white;
+  position: relative;
+  top: 170px;
+  left: 650px;
+}
+
+.producto{
+  background-color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  top: 180px;
+  width: 80%;
+  height: 250px;
+  left: 100px;
+  background-color: #fff;
+  padding: 10px;
+  
+ 
+}
+.product{
+  display: flex;
+}
+.producto_uno{
+  position: relative;
+  width: 280px;
+  height: 180px;
+  left: 10px;
+  top: -8px;
+}
+.xbox{
+  position: relative;
+  left: 100px;
+}
+.uno{
+  position: relative;
+  left: 100px;
+  color: black;
+  top: -20px;
+}
+.logo-2{
+  position: relative;
+  width: 270px;
+  height: 160px;
+  left: 300px;
+}
+
+

@@ -1,0 +1,180 @@
+body{
+    background-color:black;
+
+}
+.logo{
+    background-color: white;
+    width: 100%;
+
+}
+.logo-1{
+    position: relative;
+    width: 300px;
+    height: 220px;
+    left: 300px;
+    top: 0px;
+}
+.link{
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+    color:purple ;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 2px black;
+    width: 105px;
+    height: 40px;
+}
+.link-2{
+    position: absolute;
+    top: 70px;
+    left: 1150px;
+    color:purple ;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 2px black;
+    width: 120px;
+    height: 40px;
+}
+.link-3{
+    position: absolute;
+    top: 70px;
+    left: 1330px;
+    color:purple ;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 2px black;
+    width: 120px;
+    height: 40px;
+}
+
+.contenedor {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+  }
+.imagen{ position: absolute;
+    width: 488%;
+    height: 350px;
+    z-index: 1;
+}
+.imagen-1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1px;
+    left: 50px;
+    z-index: 2;
+
+}
+.imagen-2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1px;
+    left: 350px;
+    z-index: 2;
+
+}
+
+.tarjetas{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+   
+}
+.tarjetas .card{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotteds rgb(226, 74, 74);
+    color: rgb(248, 248, 249);
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: ratio 700px / 800px;
+    box-shadow: 1px 1px rgb(251, 251, 251);
+   
+}
+
+.tarjetas .card .contenido img{
+    display: block;
+    margin: auto;
+    width: 45%;
+    
+}
+.tarjetas .card .contenido .centrar{
+    text-align: center;
+    color:rgb(253, 251, 251);
+    font-weight: bold;
+    font-size: 1.5rem; 
+  
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center; 
+   
+}
+main{
+    position: absolute;
+    top: 650px;
+    left: 350px;
+
+   
+    
+}
+.imagen-3{ 
+    position: relative;
+    width: 280px;
+    height: 200px; 
+    top: 15px;
+    left: 10px;
+
+}
+.imagen-4{
+    position: relative;
+    width: 280px;
+    height: 200px; 
+    top: 15px;
+    left: 70px;
+}
+.imagen-5{
+    position: relative;
+    width: 280px;
+    height: 200px; 
+    top: 15px;
+    left: 130px;
+}
+.titulo{ 
+    position: relative;
+    padding-left: 100px;
+    left: 200px;
+    color: orange;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abajo{
+    background-color: white;
+    position: relative;
+    top: 800px;
+    width: 100%;
+    
+}
+.imagen-6{
+    position: relative;
+    top: 1px;
+    width: 250px;
+    height: 150px;
+    left: 500px;
+}
+.red{ position: absolute;
+    left: 1200px;
+    top: 30px;
+    color: rgb(212, 27, 27);
+
+}
+
